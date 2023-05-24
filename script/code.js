@@ -10,3 +10,44 @@ function fullName(){
 }
 
 console.log(fullName());
+
+//Question 2
+
+let firstName='Mihlali';
+
+let lastName='Matrose';
+
+let  age='20';
+console.log(firstName);
+console.log(lastName);
+console.log(age)
+
+const listOfsubjects= [
+    'Javascript','HTML','CSS'
+];
+
+
+for (let i = 0; i < listOfsubjects.length; i++) {
+    console.log(listOfsubjects[i]);
+    
+}
+
+
+
+const address=[
+    streetName='Kanti Street'
+    , streetNumber='35'
+    , suburb='Khayelitsha'
+    , city='Cape Town'
+    , countryName='South Africa'
+]
+
+for (let i = 0; i < address.length; i++) {
+    console.log(address[i]);
+    
+}
+
+
+
+
+
