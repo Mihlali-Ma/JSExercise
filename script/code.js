@@ -51,3 +51,19 @@ for (let i = 0; i < address.length; i++) {
 
 
 
+function btnResult(){
+    let numb1 = +document.querySelector("#numb1").value
+    let operator = document.querySelector("#sums").value
+    let numb2 = +document.querySelector("#numb2").value
+    let result = document.querySelector("#answer")
+
+    if (operator == "+"){
+         result.innerText = numb1 + numb2;
+    }else if (operator == "-"){
+         result.innerText = numb1 - numb2;
+    } else if (operator == "*"){
+         result.innerText = numb1 * numb2;
+    }else if (operator == "/"){
+         result.innerText = numb1 / numb2;
+    }
+}
