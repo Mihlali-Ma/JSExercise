@@ -71,7 +71,7 @@ function btnResult(){
 //QUESTION 4
 
 let subject="programming";
- let subject2=subject.split('').reverse().join('')
+let subject2=subject.split('').reverse().join('')
 
     console.log(subject2);
 
