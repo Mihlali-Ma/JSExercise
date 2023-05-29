@@ -49,7 +49,7 @@ for (let i = 0; i < address.length; i++) {
 
 
 
-
+//QUESTION 3
 
 function btnResult(){
     let numb1 = +document.querySelector("#numb1").value
@@ -67,3 +67,14 @@ function btnResult(){
          result.innerText = numb1 / numb2;
     }
 }
+
+//QUESTION 4
+
+let subject="programming";
+ let subject2=subject.split('').reverse().join('')
+
+    console.log(subject2);
+
+//learnt it on a youtube video @codebubb, link to the video https://www.youtube.com/watch?v=k7zzWvQaEhc.
+
+ 
