@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/styles.css">
     <title>Document</title>
 </head>
 <body>
+
+
     <!--QUESTION 1
         1.Varieble: Is a storage that contains value.
         2.Value: Is a reprisintation of somthing, that can be maipulated.
@@ -25,6 +28,34 @@
 
           continues on code.js
     -->
+    <!--QUESTION 2-->
+     <div class="container">
+        <div class="numbers-1">
+            <label for="number1" class="numb">Number 1 :</label>
+            <input type="text" name="number1" id="numb1">
+        </div>
+        
+        <div class="oparate">
+            <label class="rations" for="ops">Operator :</label>
+            <input type="text" name="ops" id="sums">
+        </div>
+        <div class="numbers-2">
+            <label for="number2" class="numb">Number 2 :</label>
+            <input type="text" name="number2" id="numb2">
+        </div>
+        <div class="answer">
+            <div>
+                <h4>Answer</h4>
+            </div>
+            <div>
+            <p id="answer"></p>
+            </div>
+        </div>
+        <div class="button">
+            <button id="display" onclick="btnResult()">Display</button>
+        </div>
+        
+    </div>
 
     <script src="./script/code.js"></script>
 </body>
